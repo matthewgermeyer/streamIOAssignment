@@ -1,10 +1,8 @@
 import java.io.Serializable;
-
 public class Parent implements Serializable{
     private int idNum;
     private String name;
     private Child child;
-
     //GetSet ...
     public int getIdNum() {
         return idNum;
@@ -24,7 +22,6 @@ public class Parent implements Serializable{
     public void setChild(Child child) {
         this.child = child;
     }
-
     //toString
     @Override
     public String toString() {
